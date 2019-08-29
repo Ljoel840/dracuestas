@@ -1,0 +1,308 @@
+body{
+    background:#fff;
+    font-family: 'Quicksand', sans-serif;
+ }
+.navbar {
+    background: #609BCB;
+    color: white;
+}
+.carousel-item {
+    height: 90vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+.derecha {
+    color: white;
+    margin-bottom: 3%;
+    text-align: right;
+}
+.tituloPrincipal {
+    margin: 0 35rem 25rem 0;
+    text-align: right;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 4px #000000
+
+}
+
+.noti {
+    position: absolute;
+     margin: 3rem 2rem 2rem 1.5rem; 
+   
+
+}
+.textoNoticias {
+    color: #000;
+    font-weight: lighter;
+}
+
+.iconosinformacion {
+    padding: 15px 5px;
+}
+
+.contacto  {
+    text-align: center;
+    line-height: 0.5;
+}
+.espacio {
+    width: 100%;
+    height: 300px;
+}
+
+.lineaAzul {
+    background: #609BCB;
+    height: 100px;
+    
+}
+
+.logobajo {
+    text-align: center;
+}
+
+.logosazules {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.navbar-nav{
+    z-index: 9999999;
+}
+
+
+@media only screen and (min-width: 700px) {
+    .logo {
+        position: fixed;
+        left: 3%;
+        right: 0;
+        top: 1%;
+        margin: 0 auto;
+        z-index: 10000;
+     }
+     .logo2 {
+        display: none
+         }
+    
+    
+    .serv {
+        position: absolute;
+        width: 100%;
+        height: 500px;
+        margin-top: -3%;
+        
+    }
+    
+    .espacio {
+        width: 100%;
+        height: 300px;
+    }
+ }
+ 
+ @media only screen and (max-width: 700px) {
+    .logo {
+    display: none
+     }
+
+     .logo2 {
+        display: inline;
+        position: absolute;
+        left: 15vh;
+        right: 0;
+        top: 15%;
+        margin: 0 auto;
+        z-index: 9999999;
+        align-self: center;
+     }
+    .espacio {
+        display: none;
+    }
+    .serv {
+        position: relative;
+        
+    }
+    form{
+        width:100%;
+      } 
+     
+
+}
+  .servicios  {
+    text-align: center;
+    color: white;
+    /* z-index: 9000; */
+    /* font-size: 150%; */
+
+}
+
+
+
+.titulos {
+    text-align: center;
+    font-weight: lighter;
+}
+
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #FF8A8B;
+    border-radius: 50%;
+    width: 20px;
+    height: 1px;
+}
+
+.blog .carousel-indicators .active {
+background: #FF696C;
+}
+
+.noticias {
+    text-align: center;
+}
+
+
+.imgEspecialista{
+  background-image: url("/static/img/especialista.jpg");
+  background-color: #cccccc;
+  height: 607px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.textoEspecialista {
+    padding-top: 5%;
+    margin-left: 5%;    
+    font-weight: lighter;
+}
+
+.textoEspecialista h1 {
+    font-weight: lighter;
+}
+
+.textoEspecialista h3 {
+    font-weight: lighter;
+}
+
+
+.contenedorTestimonio {
+    /* text-align: center; */
+    position: absolute;
+    margin: 4rem 2rem 2rem 1.5rem; 
+  
+}
+
+.testimonioNombre {
+    color: #000;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.textoTestimonio {
+    color: #000;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.col-md-6 {
+    text-align: center;
+}
+
+
+/* ----------------------------- */
+ form{
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    /* background-color: rgba(10,60,70,0.7); */
+    box-sizing:border-box;
+    margin-top:10px;
+    text-align: center;
+   } 
+   input,textarea,select{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing:border-box;
+    font-size: 17px;
+    border: none;
+   }
+   
+   form h2{
+    color: #609BCB;
+    margin-bottom: 20px;
+    display:inline-block;
+   }
+   textarea{
+    max-height: 200px;
+    min-height:100px;
+    max-width: 100%;
+   }
+    #boton{
+    border: none;
+    color: white;
+    background: transparent;
+    background-color: #609BCB;
+    border-radius: 10px;
+    padding: 10px 32px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+   
+   }
+
+
+
+   #boton:hover{
+    cursor:pointer;
+    color: #609BCB;
+    background-color: white;
+   }
+   
+   .iconosFooter:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+
+
+
+  .iconosinformacion:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
